@@ -27,4 +27,5 @@ void sort(int *array, int high, int low, size_t size);
 int partition(int *array, int high, int low);
 void shell_sort(int *array, size_t size);
 void insertion_sort(int *array, size_t size);
+void counting_sort(int *array, size_t size);
 #endif
