@@ -28,4 +28,6 @@ int partition(int *array, int high, int low);
 void shell_sort(int *array, size_t size);
 void insertion_sort(int *array, size_t size);
 void counting_sort(int *array, size_t size);
+void make_heap(int *array, size_t size, int i);
+void heap_sort(int *array, size_t size);
 #endif
